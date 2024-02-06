@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator - By Vansh Sikka</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./resources/favicon.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Text <span>Translator</span></h1>
+        <form>
+            <div class="text">
+                <input class="enteredText" type="text" contenteditable="true" placeholder="Enter text here"/>
+            </div>
+            <div class="dropdown-menu">
+                <div class="FROM">
+                    <p>FROM</p>
+                    <div class="select-container">
+                        <select name="FROM">
+                            <!-- Done using JS -->
+                        </select>
+                    </div>
+                </div>
+                <div class="TO">
+                    <p>TO</p>
+                    <div class="select-container">
+                        <select name="TO">
+                            <!-- Done using JS -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="msg"></div>
+            <button id="msgBox" onclick="changeColor()">Translate</button>
+        </form>
+    </div>
+    <script src="./countryCodes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- By Vansh Sikka -->

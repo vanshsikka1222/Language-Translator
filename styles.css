@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #97b1f1;
+    background-size: cover;
+    background-position: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(17, 43, 239);
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 1rem 1rem 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    caret-color: rgb(16, 57, 167);
+}
+
+.dropdown-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dropdown-menu i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container {
+    display: flex;
+    width: 6.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.select-container select {
+    width: 100px;
+    font-size: 1rem;
+    font-family: "Rajdhani", sans-serif;
+    cursor: pointer;
+}
+
+.msg {
+    margin: 2rem 2rem 2rem 0.2rem;
+    font-size: 1.2rem;
+}
+
+form button {
+    height: 2.5rem;
+    background-color: rgb(17, 43, 239);
+    opacity: 1;
+    margin-left: 0.4rem;
+    color: #fff;
+    font-size: 1.15rem;
+    font-family: "Rajdhani", sans-serif;
+    cursor: pointer;
+}
+
+span {
+    font-size: 2rem;
+    color: black;
+}
+
+.text p, 
+.FROM p,
+.TO p {
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+.TO {
+    margin-left: 4.2rem;
+}
+/* By Vansh Sikka */
